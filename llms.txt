@@ -1,0 +1,15 @@
+# Oluwafemi Orimoloye
+
+Strategic human-capital professional connecting people strategy, organisational performance, employee experience, talent and rewards to business outcomes.
+
+## Site
+- Home: /
+- About: /about/
+- Expertise: /expertise/
+- Experience: /experience/
+- Insights: /insights/
+- Speaking: /speaking/
+- Contact: /contact/
+
+## Important
+This development build contains placeholders for content, assets, domain, contact information, analytics identifiers and form infrastructure that have not yet been supplied.

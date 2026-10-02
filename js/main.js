@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());document.querySelectorAll('[data-track]').forEach(el=>el.addEventListener('click',()=>window.trackEvent?.(el.dataset.track,{path:location.pathname})));});
