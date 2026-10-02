@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-# SITE URL REQUIRED before launch; add Sitemap: https://YOUR-DOMAIN/sitemap.xml after domain approval.
+Sitemap: https://greaterheight.github.io/FemiOrimoloye/sitemap.xml

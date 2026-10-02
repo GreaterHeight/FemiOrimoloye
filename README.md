@@ -1,15 +1,11 @@
-# Oluwafemi Orimoloye — Gate 6 Development Build
+# Oluwafemi Orimoloye — Complete Website Build
 
-This is the Gate 6 implementation of the approved Gates 1–5 architecture, visual direction and UX/UI specification.
+GitHub Pages deployment target: https://greaterheight.github.io/FemiOrimoloye/
 
-## Stack
-HTML5 · CSS3 · Vanilla JavaScript
+This build uses relative paths so it works as a GitHub Pages project site. Replace the repository contents with this package.
 
-## Entry
-`index.html`
+## Important source/content note
+The site uses the supplied CV, LinkedIn extract, project brief and brand system. Where a personal email, phone number, booking URL or final portrait was not supplied, the build does not invent one.
 
-## Pages
-Home, About, Expertise, Experience, Insights, Speaking, Contact, Privacy, Terms, Disclaimer, 404.
-
-## Important
-This is **not launch-ready**. The project intentionally retains clearly marked placeholders for missing authoritative content/assets/integrations.
+## Contact form
+The form validates locally and prepares/copies an enquiry. A production server-side recipient is intentionally not invented. Connect the form to an approved provider before treating the site as a fully operational lead-generation system.

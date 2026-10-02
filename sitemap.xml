@@ -1,3 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- DOMAIN REQUIRED: replace https://YOUR-DOMAIN with the approved production domain before launch. -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/</loc></url>
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/about/</loc></url>
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/expertise/</loc></url>
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/experience/</loc></url>
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/insights/</loc></url>
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/insights/article-1.html</loc></url>
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/insights/article-2.html</loc></url>
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/insights/article-3.html</loc></url>
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/speaking/</loc></url>
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/contact/</loc></url>
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/privacy/</loc></url>
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/terms/</loc></url>
+  <url><loc>https://greaterheight.github.io/FemiOrimoloye/disclaimer/</loc></url>
+</urlset>

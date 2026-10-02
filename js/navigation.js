@@ -1,1 +1,8 @@
-document.addEventListener('DOMContentLoaded',()=>{const b=document.querySelector('.menu-toggle'),n=document.querySelector('#primary-menu');if(!b||!n)return;const close=()=>{b.setAttribute('aria-expanded','false');n.classList.remove('is-open');document.body.classList.remove('menu-open');};b.addEventListener('click',()=>{const open=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(open));n.classList.toggle('is-open',open);document.body.classList.toggle('menu-open',open);if(open)n.querySelector('a')?.focus();});n.addEventListener('click',e=>{if(e.target.matches('a'))close();});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&n.classList.contains('is-open')){close();b.focus();}});});
+(function(){
+ const toggle=document.querySelector('.menu-toggle'),nav=document.getElementById('primary-menu'); if(!toggle||!nav)return;
+ const links=[...nav.querySelectorAll('a')];
+ function close(){toggle.setAttribute('aria-expanded','false');nav.classList.remove('is-open');document.body.classList.remove('menu-open');}
+ toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!open));nav.classList.toggle('is-open',!open);});
+ links.forEach(a=>a.addEventListener('click',close));
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('is-open')){close();toggle.focus();}});
+})();

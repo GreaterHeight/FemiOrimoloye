@@ -1,9 +1,15 @@
 {
   "name": "Oluwafemi Orimoloye",
   "short_name": "Oluwafemi Orimoloye",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#F7F8FA",
   "theme_color": "#1B2230",
-  "icons": []
+  "icons": [
+    {
+      "src": "images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
 }
