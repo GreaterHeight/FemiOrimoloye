@@ -2,6 +2,12 @@
 
 A bespoke, responsive static website based on the supplied Personal Brand Definition, Project Brief and Master Prompt v5.8. Brand system: Royal Blue `#1749B8`, Midnight Navy `#1B2230`, Powder Blue `#DCE8F8`, Soft Lavender `#9B8EAA`, Burgundy Red `#C6404B`, Clean White `#F7F8FA`; Cormorant Garamond, Inter and Manrope.
 
+## Corrected path handling and preview
+
+This package uses **relative internal paths** for stylesheets, JavaScript, images, navigation and form destinations. This is intentional: the site can be previewed from the extracted folder and can also be deployed at the root of `https://femiorimoloye.com/`. Upload the **contents of this folder**, not just `index.html`; keep the `css/`, `js/`, `assets/`, and page directories alongside it. If only the HTML file is uploaded or copied, styling and images will not load.
+
+The cinematic hero MP4 is still a separate production asset. Until it is supplied, the real portrait poster remains the visual fallback.
+
 ## Run locally
 
 This is a static site. Open `index.html` for a quick visual check, or serve the folder over HTTP for routing, manifest and service-worker testing. For example, from this directory run `python -m http.server 8080` and visit `http://localhost:8080`. PWA service-worker registration intentionally requires HTTPS or localhost.

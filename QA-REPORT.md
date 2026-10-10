@@ -27,3 +27,10 @@
 ## Acceptance position
 
 The site is structured and package-ready for static hosting configuration. Do not represent the final film, live form routing, newsletter subscription, analytics or domain deployment as complete until the relevant external dependency has been configured and tested.
+
+
+## Follow-up correction after user-reported rendering failure
+
+The supplied screenshot showed browser-default styling, collapsed navigation and broken image paths. The package has been revised to use relative internal asset and navigation paths, a relative CSS variables import and relative image URLs in CSS. This addresses the path-resolution failure mode when the extracted site is previewed from a local file path or served beneath a path prefix. The package must be deployed with the complete directory tree; `index.html` alone is not a complete website.
+
+Validation performed after correction: checked all 20 HTML pages for local stylesheet references and local image/video paths; no missing local image references remain other than the intentionally unproduced hero MP4. A full live-hosted browser and integration test is still pending deployment; the screenshot's exact serving environment is not available in this workspace.

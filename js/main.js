@@ -5,5 +5,5 @@ const video=document.querySelector('.hero-video');if(video){const reduced=window
 // Netlify Forms: these handlers provide honest UI states. Successful submit occurs only after Netlify accepts the POST.
 document.querySelectorAll('form[data-netlify="true"]').forEach(form=>{form.addEventListener('submit',()=>{const status=form.querySelector('.form-status');if(status){status.textContent='Submitting securely…';status.classList.add('is-visible')}})});
 // Analytics integration point: configure the approved analytics provider and consent rules before enabling tracking.
-if('serviceWorker'in navigator&&location.protocol==='https:'){window.addEventListener('load',()=>navigator.serviceWorker.register('/service-worker.js').catch(()=>{}))}
+if('serviceWorker'in navigator&&location.protocol==='https:'){window.addEventListener('load',()=>navigator.serviceWorker.register(new URL('../service-worker.js',document.querySelector('script[src$="main.js"]').src)).catch(()=>{}))}
 })();
