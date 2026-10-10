@@ -1,15 +1,1 @@
-{
-  "name": "Oluwafemi Orimoloye",
-  "short_name": "Oluwafemi Orimoloye",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#F7F8FA",
-  "theme_color": "#1B2230",
-  "icons": [
-    {
-      "src": "images/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    }
-  ]
-}
+{"name":"Femi Orimoloye | People Strategy","short_name":"Femi Orimoloye","description":"People Strategy. Organizational Performance. Lasting Impact.","start_url":"/","scope":"/","display":"standalone","background_color":"#1B2230","theme_color":"#1749B8","icons":[{"src":"/assets/images/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},{"src":"/assets/images/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}

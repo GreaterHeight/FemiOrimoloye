@@ -1,15 +1,23 @@
-# Oluwafemi Orimoloye
+# Femi Orimoloye
 
-Strategic human-capital professional connecting people strategy, organisational performance, employee experience, talent and rewards to business outcomes.
+> People Strategy. Organizational Performance. Lasting Impact.
 
-## Site
-- Home: /
-- About: /about/
-- Expertise: /expertise/
-- Experience: /experience/
-- Insights: /insights/
-- Speaking: /speaking/
-- Contact: /contact/
+Femi Orimoloye is a strategic human-capital and people-strategy professional whose documented work spans human-capital leadership, total rewards, compensation and benefits, workforce planning, talent development, employee experience, HR operations and programme development.
 
-## Important
-This development build contains placeholders for content, assets, domain, contact information, analytics identifiers and form infrastructure that have not yet been supplied.
+## Main pages
+- [Home](https://femiorimoloye.com/): Positioning and overview
+- [About](https://femiorimoloye.com/about/): Professional story and credentials
+- [Expertise](https://femiorimoloye.com/expertise/): People strategy, rewards, talent, employee experience and HR transformation
+- [Experience](https://femiorimoloye.com/experience/): Career timeline based on supplied professional profile
+- [Initiatives](https://femiorimoloye.com/initiatives/): Selected programme examples and reported outcomes
+- [Services](https://femiorimoloye.com/services/): Areas for professional discussion; specific offerings require confirmation
+- [Speaking](https://femiorimoloye.com/speaking/): Proposed professional speaking themes
+- [Insights](https://femiorimoloye.com/insights/): Original project-created editorial drafts
+- [Resources](https://femiorimoloye.com/resources/): Knowledge library
+- [Contact](https://femiorimoloye.com/contact/): Professional enquiries
+
+## Contact
+- Email: hello@femiorimoloye.com
+- LinkedIn: https://www.linkedin.com/in/orimoloye-oluwafemi-mba-cbsp-acipm-shrm-cp-cphr-88718734/
+
+The site's articles are original drafts created for this platform and should not be represented as previously published work. Quantified outcomes are summaries of claims in supplied professional profile material and should be validated before public use. This file is not a substitute for page-level context or source review.

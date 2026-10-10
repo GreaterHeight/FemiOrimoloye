@@ -1,5 +1,9 @@
-(function(){
-  const root=document.documentElement;
-  const year=document.querySelector('[data-year]'); if(year) year.textContent=new Date().getFullYear();
-  document.querySelectorAll('[data-track]').forEach(el=>el.addEventListener('click',()=>{try{if(window.dataLayer)window.dataLayer.push({event:el.dataset.track});}catch(e){}}));
+(()=>{'use strict';const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.nav');if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation')});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');toggle.setAttribute('aria-expanded','false')}));document.addEventListener('keydown',e=>{if(e.key==='Escape'){nav.classList.remove('is-open');toggle.setAttribute('aria-expanded','false');toggle.focus()}})}
+const top=document.querySelector('.back-top');if(top){const update=()=>top.classList.toggle('visible',window.scrollY>500);window.addEventListener('scroll',update,{passive:true});update()}
+const year=document.querySelectorAll('[data-year]');year.forEach(el=>el.textContent=new Date().getFullYear());
+const video=document.querySelector('.hero-video');if(video){const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;const saveData=navigator.connection&&navigator.connection.saveData;if(reduced||saveData){video.removeAttribute('autoplay');video.pause();video.style.display='none'}else{video.addEventListener('error',()=>{video.style.display='none'});video.addEventListener('canplay',()=>{video.style.opacity='1'});video.play().catch(()=>{video.style.display='none'})}}
+// Netlify Forms: these handlers provide honest UI states. Successful submit occurs only after Netlify accepts the POST.
+document.querySelectorAll('form[data-netlify="true"]').forEach(form=>{form.addEventListener('submit',()=>{const status=form.querySelector('.form-status');if(status){status.textContent='Submitting securely…';status.classList.add('is-visible')}})});
+// Analytics integration point: configure the approved analytics provider and consent rules before enabling tracking.
+if('serviceWorker'in navigator&&location.protocol==='https:'){window.addEventListener('load',()=>navigator.serviceWorker.register('/service-worker.js').catch(()=>{}))}
 })();
