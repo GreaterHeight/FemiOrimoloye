@@ -1,3 +1,7 @@
+# Femi Orimoloye — Digital Authority Website (v8)
+
+**v8 update:** The Industry Authority experience is now integrated across the existing website. See `CHANGELOG-v8.md` and `QA-REPORT-v8.md` for scope, checks and outstanding production items. Sector presentation distinguishes documented career experience from transferable relevance and potential applicability.
+
 # Femi Orimoloye — Personal Brand & Digital Authority Platform
 
 A bespoke, responsive static website based on the supplied Personal Brand Definition, Project Brief and Master Prompt v5.8. Brand system: Royal Blue `#1749B8`, Midnight Navy `#1B2230`, Powder Blue `#DCE8F8`, Soft Lavender `#9B8EAA`, Burgundy Red `#C6404B`, Clean White `#F7F8FA`; Cormorant Garamond, Inter and Manrope.
