@@ -14,7 +14,7 @@ This is a static site. Open `index.html` for a quick visual check, or serve the 
 
 ## Included
 
-- Home, About, Expertise, Experience, Leadership, Initiatives, Speaking, Media & Publications, Services, Industry Authority, Resources, Insights archive, three article detail pages, Contact, Privacy Notice and 404.
+- Home, About, Expertise, Experience, Leadership, Initiatives, Speaking, Media & Publications, Services, Industry Authority, Resources, Insights archive, nine article detail pages, Contact, Privacy Notice and 404.
 - Brand-responsive layouts, mobile navigation, reduced-motion support, SEO/social metadata, Person structured data, sitemap, robots.txt, `llms.txt`, `llms-full.txt`, PWA manifest and service worker.
 - Contact and newsletter forms prepared for Netlify Forms, with honeypot fields and accessible fields. Netlify notification routing, privacy/consent review and newsletter-list integration must be configured before production.
 - Original editorial drafts clearly labelled as project-created content rather than previously published work.
@@ -45,3 +45,8 @@ Recommended: Netlify static hosting. Publish this directory as the site root. Af
 - This package is production-structured and ready for hosting configuration. It is not represented as already deployed to the domain or as having live external integrations that were not available for testing.
 
 The package includes a `netlify.toml` with basic security headers and Netlify form configuration, plus form-success routes. Verify the CSP against the deployed build and any future third-party integrations before tightening it further.
+
+
+## Editorial update (11 October 2026)
+
+The Insights library contains nine original editorial drafts, each with its own detail page and matching card/hero image. The homepage hero overlay has been reduced to preserve the portrait, and a logo-based page-loading throbber uses the supplied `assets/images/icon-192.png`.

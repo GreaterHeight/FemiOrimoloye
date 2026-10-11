@@ -48,3 +48,26 @@ Any real event photography, named client/company premises, interview, publicatio
 ## IMG-07 — Open Graph share image
 
 The 1200×630 share preview is composed from the supplied `portrait-modern-office.jpg`, the approved brand palette and typographic hierarchy. It is not documentary evidence of a new event or workplace. Keep the identity source authentic, avoid extra logos, and update the image only if the brand owner approves a new portrait or message.
+
+
+## Insight-card and article-hero images
+
+Each insight card image is reused as the matching article-detail hero image. Generated editorial images are illustrative and are not represented as photographs of actual client engagements.
+
+- **People Strategy Is a Business Design Problem** — `assets/images/insights/people-strategy-is-a-business-design-problem.jpg` — Black professionals discussing business performance charts in a modern boardroom.
+
+- **Total Rewards Is a System, Not a Payroll Line** — `assets/images/insights/total-rewards-is-a-system-not-a-payroll-line.jpg` — Two professionals reviewing business data and reports at a conference table.
+
+- **The Employee Experience Is Built Into the Processes** — `assets/images/insights/the-employee-experience-is-built-in-the-processes.jpg` — A professional team in a boardroom discussing organisational data.
+
+- **Workforce Planning Begins With the Work, Not the Headcount** — `assets/images/insights/workforce-planning-begins-with-the-work.jpg` — A senior professional explaining workforce analytics to a colleague in a modern office.
+
+- **Pay Equity Requires More Than a Salary Comparison** — `assets/images/insights/pay-equity-requires-more-than-a-salary-comparison.jpg` — Two Black professionals reviewing compensation analysis and reports in an executive office.
+
+- **Employee Listening Matters Only When It Changes Decisions** — `assets/images/insights/employee-listening-matters-only-when-it-changes-decisions.jpg` — Professionals reviewing employee and business data in a modern conference room.
+
+- **HR Technology Should Simplify the Work Around People** — `assets/images/insights/hr-technology-should-simplify-work.jpg` — Femi Orimoloye in a professional office, representing the human side of HR technology.
+
+- **Leadership Capability Is Built in Everyday Systems** — `assets/images/insights/leadership-capability-is-built-in-everyday-systems.jpg` — Executive portrait in a professional office setting, illustrating leadership capability.
+
+- **The Metrics That Matter Connect People Activity to Business Outcomes** — `assets/images/insights/people-metrics-must-connect-to-business-outcomes.jpg` — Professional in a contemporary office, representing evidence-led people decisions.
