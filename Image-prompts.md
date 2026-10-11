@@ -71,3 +71,10 @@ Each insight card image is reused as the matching article-detail hero image. Gen
 - **Leadership Capability Is Built in Everyday Systems** — `assets/images/insights/leadership-capability-is-built-in-everyday-systems.jpg` — Executive portrait in a professional office setting, illustrating leadership capability.
 
 - **The Metrics That Matter Connect People Activity to Business Outcomes** — `assets/images/insights/people-metrics-must-connect-to-business-outcomes.jpg` — Professional in a contemporary office, representing evidence-led people decisions.
+
+
+## About-page editorial image direction
+
+- `assets/images/about/femi-editorial.jpg` — primary authentic portrait, used in the About opening. Preserve the supplied person’s identity, natural skin tone, face, age and distinguishing features. Use a restrained editorial crop; no heavy tint.
+- `assets/images/shared/femi-in-context.jpg` — contextual professional image used in the About “From specialist disciplines to the whole system” section. Treat the scene as illustrative atmosphere, not evidence of a particular client engagement. Use the full landscape frame with `object-fit: cover` and a deliberate centred focal point.
+- The About page intentionally follows an editorial narrative rhythm: light hero, portrait-led introduction, career sequence, image-led practice section, academic formation, principles and a distinctive closing conversation section. Do not replace it with a generic repeated CTA panel.

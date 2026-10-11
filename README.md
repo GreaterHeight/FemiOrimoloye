@@ -17,7 +17,7 @@ This is a static site. Open `index.html` for a quick visual check, or serve the 
 - Home, About, Expertise, Experience, Leadership, Initiatives, Speaking, Media & Publications, Services, Industry Authority, Resources, Insights archive, nine article detail pages, Contact, Privacy Notice and 404.
 - Brand-responsive layouts, mobile navigation, reduced-motion support, SEO/social metadata, Person structured data, sitemap, robots.txt, `llms.txt`, `llms-full.txt`, PWA manifest and service worker.
 - Contact and newsletter forms prepared for Netlify Forms, with honeypot fields and accessible fields. Netlify notification routing, privacy/consent review and newsletter-list integration must be configured before production.
-- Original editorial drafts clearly labelled as project-created content rather than previously published work.
+- Original thought-leadership articles authored for this platform, written in an editorial voice without fabricated citations or publication history.
 - Image inventory and image prompts; cinematic hero film production brief and poster/fallback direction.
 
 ## Launch-critical external dependencies
@@ -50,3 +50,12 @@ The package includes a `netlify.toml` with basic security headers and Netlify fo
 ## Editorial update (11 October 2026)
 
 The Insights library contains nine original editorial drafts, each with its own detail page and matching card/hero image. The homepage hero overlay has been reduced to preserve the portrait, and a logo-based page-loading throbber uses the supplied `assets/images/icon-192.png`.
+
+
+## Revision v5 — editorial depth and page distinction
+
+- Removed the requested editorial-transparency/draft notices from public insight pages and removed visible launch-task instructions from public pages.
+- Expanded the About page into an image-led editorial narrative with a career arc, professional-practice section, academic formation, working principles and a bespoke closing section, following the supplied About-page reference.
+- Replaced the repeated identical closing CTA with page-specific copy and visual treatments across the home, About, Contact, Experience, Expertise, Industry Authority, Initiatives, Leadership, Media, Resources, Services, Speaking, Privacy, Insights archive and nine insight-detail pages.
+- Expanded `Cinematic-Hero-Art-Direction.md` into a detailed eight-shot film production brief with per-shot scene, composition, lighting, camera motion, transition, realism and negative-prompt guidance.
+- Updated the service-worker cache version so browsers can fetch the revised styles and content after deployment.

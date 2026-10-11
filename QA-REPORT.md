@@ -1,57 +1,33 @@
-# Production QA Report — Femi Orimoloye Website
+# Production QA Report — Femi Orimoloye Digital Authority Website
 
-**Build status:** Static production package assembled; external launch gates remain.
+**Package revision:** v5 — editorial depth, page-specific CTAs and cinematic art-direction expansion
+**Date:** 11 October 2026
 
-## Automated structural checks performed
+## Changes in this revision
 
-- 20 HTML documents detected across the package, including success states and 404.
-- 17 public URLs listed in `sitemap.xml`; each maps to an existing local HTML route.
-- Required page families and three article-detail routes are present.
-- Unique title elements and main landmarks are present across public pages; success routes are intentionally minimal.
-- Local CSS, JavaScript, favicon, manifest and image references resolve, with one intentional exception: `/assets/video/femi-executive-hero.mp4` is the documented final-film slot and the actual video has not been supplied/rendered.
-- 192 px and 512 px supplied app icons are included; favicon generated from supplied icon artwork.
-- Contact and newsletter forms use Netlify Forms markup and honeypot fields; actual receipt, routing and list integration must be verified on the deployed host.
-- No analytics IDs, API secrets, fabricated testimonials or invented publication history were added.
+- Removed the requested editorial-note paragraphs from all nine insight-detail pages and the editorial-transparency paragraph from the Insights archive.
+- Removed visible implementation/launch instructions from public page copy, including About credential-status wording, Experience timeline verification notes, Contact form-routing/WhatsApp notes, newsletter success copy, and Privacy provider-setup notes.
+- Changed the philosophy attribution to **“Professional philosophy”** on the Home and About pages.
+- Shortened the Services notice to exactly: **“Engagement scope and service availability are subject to confirmation.”**
+- Rebuilt About as a seven-section editorial experience: light-toned hero, portrait-led introduction, career journey, image-led practice section, academic formation, professional principles and bespoke closing. The supplied Dr. Julius Olugbade screenshot informed the layout rhythm only; no content from that reference subject was reused.
+- Replaced the repeated generic CTA panel with page-specific content and visual treatments across core pages, the Insights archive and all nine article pages. The About page uses its own bespoke editorial closing.
+- Expanded `Cinematic-Hero-Art-Direction.md` into a detailed eight-shot production brief with shot timing, lens character, composition, lighting, motion, transition logic, negative prompts, edit/grade notes and technical acceptance criteria.
+- Updated `Image-prompts.md` with About-page image usage notes.
+- Bumped the service-worker cache to `femi-authority-v5` and included the About-page images in the cache core.
 
-## Not yet verified
+## Automated structural checks
 
-- Full interactive browser testing at every target viewport and browser.
-- Real Netlify form delivery and notification routing.
-- Real newsletter-provider subscription, confirmation and unsubscribe flow.
-- PWA installation/offline/update behaviour over HTTPS on supported devices.
-- Final film playback, seamless loop, crop, size and reduced-motion fallback with the approved MP4.
-- Live domain, DNS, TLS certificate and canonical URL behaviour.
-- Live social profile URLs and WhatsApp availability.
-- Legal/privacy review and final approval of credentials, career dates and reported metrics.
+- **26 HTML documents** present, including the 404 and form-success routes.
+- **9 insight cards** remain on the Insights index; each links to its dedicated article detail page.
+- **9 of 9** article cards use the same image filename as the corresponding article-detail hero.
+- All HTML documents have a title element; all non-404 pages have a main H1.
+- Local internal links and local stylesheet, script, favicon, manifest and image references were checked. The only unresolved local media path is the deliberately outstanding cinematic film asset: `assets/video/femi-executive-hero.mp4`.
+- The requested editorial-note/transparency strings and the identified visible launch-instruction strings are absent from public HTML.
+- CTA variant signatures are distinct across 22 pages with a main CTA panel; About and success/error pages use their own unique structures.
+- JavaScript syntax checks passed for `js/main.js` and `service-worker.js`; CSS brace balance is zero.
 
-## Acceptance position
+## Verification boundary
 
-The site is structured and package-ready for static hosting configuration. Do not represent the final film, live form routing, newsletter subscription, analytics or domain deployment as complete until the relevant external dependency has been configured and tested.
+A full browser-render test could not be completed in this execution environment. The previous attempt to run headless Chromium timed out. Therefore, this report confirms structural checks but does **not** claim a successful visual test in the target browser/hosting environment.
 
-
-## Follow-up correction after user-reported rendering failure
-
-The supplied screenshot showed browser-default styling, collapsed navigation and broken image paths. The package has been revised to use relative internal asset and navigation paths, a relative CSS variables import and relative image URLs in CSS. This addresses the path-resolution failure mode when the extracted site is previewed from a local file path or served beneath a path prefix. The package must be deployed with the complete directory tree; `index.html` alone is not a complete website.
-
-Validation performed after correction: checked all 20 HTML pages for local stylesheet references and local image/video paths; no missing local image references remain other than the intentionally unproduced hero MP4. A full live-hosted browser and integration test is still pending deployment; the screenshot's exact serving environment is not available in this workspace.
-
-
-## Follow-up revision — 11 October 2026
-
-- Reduced the homepage photo overlay substantially; the subject image is now intended to remain visually dominant, with contrast concentrated behind the copy.
-- Added a logo-based page-loading throbber using the supplied `icon-192.png`, including reduced-motion handling and a fail-safe timeout.
-- Added six new original insight drafts and six corresponding detail pages, bringing the insight library to nine articles.
-- Added an image to each insight card and reused that exact image on its corresponding detail-page hero.
-- Updated Open Graph/Twitter images and Article JSON-LD for all nine detail pages.
-- Added article URLs to sitemap and summaries to LLM content files.
-- Browser render and local-path checks are required after packaging; do not mark third-party form integrations or cinematic video as complete until configured/tested.
-
-
-### Automated checks for the 11 October update
-
-- 26 HTML documents present, including nine article detail pages.
-- Nine insight cards present in the Insights index; all cards contain an image and link to their matching detail page.
-- Each article detail hero points to the same image filename as its corresponding card.
-- Local internal navigation checks: zero broken internal links.
-- Local stylesheet/image/script/icon references: zero missing references. The only intentionally unresolved local media reference is `assets/video/femi-executive-hero.mp4`, documented as the outstanding cinematic film deliverable.
-- A live browser-render test could not be completed in this execution environment; verify the extracted package on the target host after deployment.
+The cinematic MP4, live contact-form notification routing, real newsletter-provider subscription/confirmation/unsubscribe workflow, analytics configuration and deployment to `femiorimoloye.com` remain external dependencies. They are not represented as completed.
