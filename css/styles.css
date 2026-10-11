@@ -66,3 +66,25 @@
 @media(max-width:560px){.about-page-hero{padding-block:52px}.about-page-hero h1{font-size:clamp(43px,12vw,60px)}.about-opening .intro-image,.about-opening .intro-image img{min-height:380px}.about-journey-grid,.about-education-grid,.about-principles-grid{grid-template-columns:1fr}.about-journey-item,.about-education-grid article{min-height:0}.about-practice-image,.about-practice-image img{min-height:260px}.cta-variant--about,.cta-variant--contact,.cta-variant--experience,.cta-variant--expertise,.cta-variant--industries,.cta-variant--initiatives,.cta-variant--leadership,.cta-variant--media,.cta-variant--resources,.cta-variant--services,.cta-variant--speaking,.cta-variant--privacy,.cta-variant--not-found,.cta-variant--article{grid-template-columns:1fr;gap:24px}}
 
 .cta-variant--insights-index{grid-template-columns:1fr .8fr;background:#eef2f8;color:var(--navy);border-top:1px solid #cbd5e5;border-bottom:1px solid #cbd5e5}.cta-variant--insights-index p{color:#536073}.cta-variant--insights-index .btn-outline{color:var(--navy);border-color:#aab3c0}
+
+
+/* v6: navigation, footer newsletter and legal alignment */
+.nav a { text-transform: uppercase; letter-spacing: .055em; }
+.footer-grid { grid-template-columns: 1.15fr .62fr .62fr 1fr 1.25fr; gap: clamp(18px,2.5vw,36px); }
+.footer-newsletter-copy { color: #b8c3d4; font-size: 12px; line-height: 1.55; margin: -8px 0 14px; }
+.footer-newsletter-form { display: flex; flex-direction: column; gap: 9px; }
+.footer-newsletter-form input[type="email"] { width: 100%; min-width: 0; padding: 12px 11px; background: #fff; border: 1px solid #d1d9e6; color: var(--ink); font-size: 12px; }
+.footer-newsletter-form .btn { width: 100%; min-height: 42px; padding: 10px 12px; }
+.footer-newsletter-form .form-status { color: var(--navy); }
+.footer-bottom { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 22px; }
+.footer-bottom > span:last-child { text-align: right; }
+.footer-legal { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 9px; text-align: center; white-space: nowrap; }
+.footer-legal a { color: #d7deea; text-decoration: none; }
+.footer-legal a:hover { color: #fff; text-decoration: underline; }
+.checkbox-line { display: grid; grid-template-columns: 18px minmax(0,1fr); align-items: start; gap: 10px; line-height: 1.65; cursor: pointer; }
+.checkbox-line input { width: 16px; height: 16px; min-height: 16px; margin: 4px 0 0; padding: 0; flex: none; accent-color: var(--royal); }
+.checkbox-line span { display: block; min-width: 0; }
+@media(max-width:1100px) { .footer-grid { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 28px; } .footer-brand { grid-column: 1/-1; } }
+@media(max-width:850px) { .footer-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .footer-brand { grid-column: 1/-1; } .footer-bottom { grid-template-columns: 1fr; justify-items: start; gap: 12px; } .footer-bottom > span:last-child { text-align: left; } .footer-legal { justify-content: flex-start; white-space: normal; } }
+@media(max-width:560px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 30px 20px; } .footer-brand { grid-column: 1/-1; } .footer-newsletter { grid-column: 1/-1; } .footer-newsletter-form { max-width: 380px; } .footer-legal { gap: 7px; font-size: 11px; } }
+@media(max-width:850px){.footer-legal{justify-content:center;text-align:center;width:100%}}

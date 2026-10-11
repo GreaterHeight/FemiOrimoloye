@@ -59,3 +59,8 @@ The Insights library contains nine original editorial drafts, each with its own 
 - Replaced the repeated identical closing CTA with page-specific copy and visual treatments across the home, About, Contact, Experience, Expertise, Industry Authority, Initiatives, Leadership, Media, Resources, Services, Speaking, Privacy, Insights archive and nine insight-detail pages.
 - Expanded `Cinematic-Hero-Art-Direction.md` into a detailed eight-shot film production brief with per-shot scene, composition, lighting, camera motion, transition, realism and negative-prompt guidance.
 - Updated the service-worker cache version so browsers can fetch the revised styles and content after deployment.
+
+
+## v6 update
+
+The newsletter signup now appears as the final footer column after Contact. Primary navigation is uppercase, legal links are centered in the footer bottom, and dedicated Terms of Use, Disclaimer and Cookie Policy pages are included. Two of the nine Insight images introduce mixed professional representation including white professionals.
