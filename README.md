@@ -64,3 +64,10 @@ The Insights library contains nine original editorial drafts, each with its own 
 ## v6 update
 
 The newsletter signup now appears as the final footer column after Contact. Primary navigation is uppercase, legal links are centered in the footer bottom, and dedicated Terms of Use, Disclaimer and Cookie Policy pages are included. Two of the nine Insight images introduce mixed professional representation including white professionals.
+
+
+## v7 additions
+- Primary navigation includes a persistent language selector (English, Arabic, French, Deutsch/German, Chinese) and site search.
+- Shared interface and key homepage intro copy have local translations; longer editorial content remains English pending full professional localisation.
+- Search covers a generated index of page titles, headings and descriptive text.
+- Homepage intro section uses a three-image collaboration mosaic and three feature rows.
