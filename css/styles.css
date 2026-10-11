@@ -122,3 +122,17 @@ html[dir="rtl"] body{direction:rtl}html[dir="rtl"] .eyebrow:before{order:2}html[
 @media(max-width:900px){.industry-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.industry-evidence-grid{grid-template-columns:1fr}.industry-approach-grid{grid-template-columns:1fr}.home-industries-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.industry-card-grid,.home-industries-grid{grid-template-columns:1fr}.industry-card,.industry-evidence-card{padding:22px}.industry-card-top{align-items:flex-start;flex-direction:column}.industry-secondary-list span{font-size:.84rem}}
 @media(prefers-reduced-motion:reduce){.industry-card{transition:none}.industry-card:hover{transform:none}}
+
+/* v8.1: footer language selector and single-line brand descriptor */
+.brand-word > span { white-space: nowrap; }
+.footer-bottom { grid-template-columns: minmax(0,1fr) auto auto minmax(0,1fr); }
+.footer-language { display:flex; align-items:center; justify-content:center; min-width:0; }
+.footer-language .language-control { color:#f7f8fa; }
+.footer-language .language-flag { font-size:17px; }
+.footer-language .language-select { color:#f7f8fa; max-width:150px; }
+.footer-language .language-select option { color:#1b2230; background:#f7f8fa; }
+.footer-language .language-chevron { color:#f7f8fa; }
+.footer-bottom--minimal { display:flex; justify-content:space-between; flex-wrap:wrap; }
+.site-footer--minimal { padding:22px 0; }
+@media(max-width:850px) { .footer-bottom { grid-template-columns:1fr; justify-items:center; } .footer-bottom > span:last-child { text-align:center; } .footer-language { justify-content:center; } }
+@media(max-width:560px) { .brand-word span { font-size:8px; letter-spacing:.06em; } .footer-bottom--minimal { align-items:center; gap:14px; } }
