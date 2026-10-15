@@ -156,3 +156,16 @@ html[dir="rtl"] body{direction:rtl}html[dir="rtl"] .eyebrow:before{order:2}html[
 .socials a svg{display:block;width:18px;height:18px;fill:currentColor}
 .socials a:hover{background:#1749B8;color:#fff;transform:translateY(-2px)}
 @media(max-width:680px){.experience-brand-row{grid-template-columns:1fr;gap:10px}.experience-brand{min-height:80px;justify-content:flex-start}}
+
+/* v8.10 usability refinements */
+.whatsapp{width:58px;height:58px;padding:0;border-radius:50%;display:grid;place-items:center;background:#25D366;color:#fff;box-shadow:0 8px 25px rgba(0,0,0,.24)}
+.whatsapp:hover{background:#128C7E;color:#fff}
+.whatsapp svg{width:32px;height:32px;fill:currentColor}
+.socials a svg{width:20px;height:20px;display:block;fill:currentColor}
+.socials a{display:inline-flex;align-items:center;justify-content:center}
+.insight-tile__meta{column-gap:10px;row-gap:5px}
+.insight-meta-separator{display:inline-block;margin-inline:4px;color:#73798a}
+.insight-tile__summary{color:#4b5566!important;opacity:1!important}
+.section-blue .insight-tile__summary{color:#4b5566!important}
+.industry-intro-link .btn-outline{background:#fff;color:var(--royal);border-color:#fff}
+.industry-intro-link .btn-outline:hover{background:var(--powder);color:var(--navy)}
