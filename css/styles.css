@@ -151,10 +151,7 @@ html[dir="rtl"] body{direction:rtl}html[dir="rtl"] .eyebrow:before{order:2}html[
 .experience-brand-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:stretch;margin-top:28px}
 .experience-brand{min-height:104px;display:flex;align-items:center;justify-content:center;gap:12px;padding:20px;border:1px solid var(--line,#dfe4eb);border-radius:12px;background:#fff;color:#1b2230;font-weight:800;letter-spacing:.025em;text-align:left}
 .experience-brand>span:last-child{display:flex;flex-direction:column;gap:3px;font-size:clamp(15px,1.6vw,22px)}
-.experience-brand small{font-size:9px;letter-spacing:.08em;font-weight:600;color:#687184}
-.experience-brand--access .brand-symbol{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#a6192e;color:#fff;font-family:Georgia,serif;font-size:24px}
-.experience-brand--interswitch{color:#007a53}.experience-brand--interswitch .brand-symbol{font-size:34px;color:#f4a900}
-.experience-brand--nibss .brand-symbol{display:grid;place-items:center;width:36px;height:36px;border-radius:8px;background:#1749B8;color:white;font-size:22px}
+.experience-brand img{display:block;width:100%;max-width:100%;height:76px;object-fit:contain;object-position:center}
 .socials a{display:grid;place-items:center;width:38px;height:38px;border:1px solid rgba(255,255,255,.22);border-radius:50%;color:inherit;transition:background .2s,color .2s,transform .2s}
 .socials a svg{display:block;width:18px;height:18px;fill:currentColor}
 .socials a:hover{background:#1749B8;color:#fff;transform:translateY(-2px)}
